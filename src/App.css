@@ -1,11 +1,14 @@
 .App {
     text-align: center;
+    height: 90vh;
+    border: 1px solid grey;
+    margin: 40px;
 }
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+body {
+    font-family: neue montreal;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
@@ -46,3 +49,142 @@
     top: 0;
     z-index: -1;
 }
+
+.main-section {
+    min-height: 80vh;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  .main-section > h1 {
+    position: absolute;
+    right: 150px;
+    max-width: 150px;
+    font-weight: 100;
+    
+  }
+  .aboutPartOne {
+    position: absolute;
+    right: 100px;
+    max-width: 150px;
+  }
+
+  .aboutPartTwo {
+    position: absolute;
+    right: 300px;
+    max-width: 150px;
+  }
+
+  .projectImg {
+    min-width: 500px;
+    min-height: 500px;
+  }
+   img {
+    border-radius: 10px;
+    max-width: 90%;
+    max-height: 90%;
+   }
+  .navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    padding: 0.5rem 0rem;
+    color: black;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  }
+  
+  .navbar > .title {
+    position: absolute;
+    color: white;
+    left: 0;
+  }
+  
+  .navbar > li {
+    list-style: none;
+    margin: 10px;
+    text-decoration: none;
+    margin-right: 50px;
+  }
+  
+  .navbar > li > a {
+    text-decoration: none;
+    color: white;
+  }
+  .navbar > li:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+    text-shadow:0px 0px 30px #fffffe;
+  }
+  
+  
+  h1 {
+    color: white;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   /* Height of the footer */
+  }
+
+  .social-icon:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+    text-shadow:0px 0px 30px #fffffe;
+  }
+
+  .social-icon {
+    margin-top: 10px;
+  }
+
+  .title__name {
+    margin-left: 10px;
+    font-size: 60px;
+    font-weight: 100;
+}
+.title__occupation {
+    position: absolute;
+
+    font-size: 15px;
+    left: 10px;
+    top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .title__name {
+        margin-top: 50px;
+        margin-left: 10px;
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+    .main-section > p {
+        margin-top: 80px;
+    }
+    .social-container {
+        height: 30px !important;
+        width: 30px;
+        margin-top: 10px;
+    }
+    .aboutPartOne {
+        position: absolute;
+        right: 50px;
+        max-width: 150px;
+        font-size: small;
+      }
+    
+      .aboutPartTwo {
+        position: absolute;
+        right: 200px;
+        max-width: 150px;
+        font-size: small;
+
+      }
+  }
