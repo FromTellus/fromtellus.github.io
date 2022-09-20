@@ -36,8 +36,8 @@ const About = () => {
         time was right and I applied.
         <br />
         <br />
-        The stars aligned and I got accepted and completed their three months{" "}
-        {"( intense )"} bootcamp in Javascript.
+        The stars aligned, I got accepted and completed their three months
+        {"( pretty intense )"} bootcamp in Javascript.
         <br />
         <br />
         And I feel I have found <b>home</b> in my return to programming and development.
