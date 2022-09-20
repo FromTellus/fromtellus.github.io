@@ -266,7 +266,7 @@ body {
         border-radius: 10px;
         max-width: 70%;
         max-height: 70%;
-        margin-top: -180px;
+        margin-top: -190px;
        }
 
        footer {
@@ -351,6 +351,7 @@ body {
       }
     
       .projectListContainer {
+        margin-bottom: -60px;
         border: 1px solid white;
     }
     
@@ -367,7 +368,7 @@ body {
         border-radius: 10px;
         max-width: 70%;
         max-height: 70%;
-        margin-top: -180px;
+        margin-top: -220px;
        }
 
        footer {
