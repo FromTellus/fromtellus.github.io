@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fromtellus.github.io"
+  "homepage": "https://fromtellus.github.io",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
