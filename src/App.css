@@ -103,6 +103,7 @@ body {
     position: absolute;
     color: white;
     left: 0;
+    height: 10px;
   }
   
   .navbar > li {
@@ -176,15 +177,22 @@ body {
     .aboutPartOne {
         position: absolute;
         right: 50px;
-        max-width: 150px;
-        font-size: small;
+        max-width: 125px;
+        font-size: 11px;
       }
     
       .aboutPartTwo {
         position: absolute;
         right: 200px;
-        max-width: 150px;
-        font-size: small;
+        max-width: 125px;
+        font-size: 11px;
 
       }
+
+      .App {
+        text-align: center;
+        height: 90vh;
+        border: 1px solid grey;
+        margin: 20px;
+    }
   }
