@@ -8,4 +8,4 @@ Animations and functionality for expanding about page on click
 
 More projects on the projects page
 
-Mobile view optimization
+Mobile view optimization (partially done 2022-10-20)
