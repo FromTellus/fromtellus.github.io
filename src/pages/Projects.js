@@ -6,7 +6,7 @@ const Projects = () => {
       <h1 className="projectInfoHeading">SneakerSpot</h1>
       <div className="projectInfoParagraph">
         <p>
-          A bartering platform for sneaker enthusiasts. The application is full-stack offering users
+          A bartering platform for sneaker enthusiasts. The application is full-stack, offering users
           secure authorization, a messaging service and complete CRUD control over their collection stored
           in our database.
         </p>
