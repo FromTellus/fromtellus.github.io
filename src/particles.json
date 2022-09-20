@@ -4,6 +4,7 @@
       "value": "#000000"
     }
   },
+  
   "fpsLimit": 120,
   "interactivity": {
     "events": {

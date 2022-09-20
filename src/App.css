@@ -345,7 +345,7 @@ body {
       }
     
       .projectInfoParagraph > p {
-        margin-top: 170px;
+        margin-top: 150px;
 
         
       }
@@ -387,5 +387,11 @@ body {
       a.social-icon {
         margin-top: 75px;
       }
+
+      #tsparticles > canvas {
+    
+        height: 50% !important;
+        width: 100%;
+    }
     
   }

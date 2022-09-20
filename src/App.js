@@ -15,18 +15,17 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/projects" element={<Projects />} />
-          <Route exact path="/about" element={<About />} />
-        </Routes>
-      </Router>
-      <Footer/>
-      <div className="everything"><Particles options={particlesOptions} init={particlesInit} /></div>
-    </div>
+    <><div className="App">
+          <Router>
+              <Navbar />
+              <Routes>
+                  <Route exact path="/" element={<Home />} />
+                  <Route exact path="/projects" element={<Projects />} />
+                  <Route exact path="/about" element={<About />} />
+              </Routes>
+          </Router>
+          <Footer />
+      </div><div className="everything"><Particles options={particlesOptions} init={particlesInit} /></div></>
   );
 }
 
