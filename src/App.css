@@ -187,7 +187,7 @@ body {
     top: 100px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1550px) {
     .title__name {
         margin-top: 50px;
         margin-left: 10px;
@@ -264,8 +264,8 @@ body {
 
       img {
         border-radius: 10px;
-        max-width: 70%;
-        max-height: 70%;
+        max-width: 60%;
+        max-height: 60%;
         margin-top: -190px;
        }
 
@@ -288,110 +288,21 @@ body {
     
   }
 
-  @media only screen and (min-height: 800px) and (max-width: 1400px) {
-    .title__name {
-        margin-top: 50px;
-        margin-left: 10px;
-        font-size: 30px;
-        font-weight: 100;
-    }
+  @media only screen and (max-width: 1200px) { 
+    img {
+ 
+        max-width: 40%;
+        max-height: 40%;
 
-    .main-section > p {
-        margin-top: 80px;
-    }
-    .social-container {
-        height: 30px !important;
-        width: 30px;
-        margin-top: 10px;
-    }
-    .aboutPartOne {
-        position: absolute;
-        right: 50px;
-        max-width: 125px;
-        font-size: 11px;
-      }
-    
-      .aboutPartTwo {
-        position: absolute;
-        right: 200px;
-        max-width: 125px;
-        font-size: 11px;
+       }
+  }
 
-      }
+  @media only screen and (max-width: 1200px) { 
+    img {
 
-      .App {
-        text-align: center;
-        height: 100vh;
-        border: 1px solid grey;
-        margin: 20px;
-    }
+        max-width: 60%;
+        max-height: 60%;
 
-    .projectInfoHeading {
-        position: absolute;
-        right: 120px;
-        max-width: 150px;
-        font-weight: 100;
-        top: 180px;
-        
-      }
-    
-      .projectInfoParagraph {
-        position: absolute;
-        right: 100px;
-        max-width: 150px;
-        font-weight: 100;
-        margin-top: 150px;
-        
-      }
-    
-      .projectInfoParagraph > p {
-        margin-top: 150px;
-
-        
-      }
-    
-      .projectListContainer {
-        margin-bottom: -60px;
-        border: 1px solid white;
-    }
-    
-      .projectInfoList {
-        margin: 5px;
-        margin-right: 150px;
-      }
-
-      .title__occupation {
-        margin-top: -10px;
-      }
-
-      img {
-        border-radius: 10px;
-        max-width: 50%;
-        max-height: 50%;
-        margin-bottom: 10px;
        }
 
-       footer {
-        position: absolute;
-        right: 0;
-        width:150px;
-        height: 60px;   /* Height of the footer */
-      }
-
-      div.social-container {
-        margin-top: 10px;
-        width: 20px !important;
-        height: 20px !important;
-      }
-
-      a.social-icon {
-        margin-top: 75px;
-      }
-
-      #tsparticles > canvas {
-    
-        height: 50% !important;
-        width: 100%;
-    }
-    
   }
