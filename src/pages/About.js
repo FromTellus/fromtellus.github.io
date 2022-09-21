@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { WiMoonAltWaningGibbous1 } from "react-icons/wi";
 import { motion } from "framer-motion";
 
 
@@ -43,20 +42,13 @@ const About = () => {
         Completing two courses that focused on HTML, CSS and Javascript, two on
         the subject of C# and one on PHP.
       </p>
-      <motion.div
-      animate={{ rotate: rotation}}
-      onClick={() => setRotation(rotation + 180)}
-      >
-      <WiMoonAltWaningGibbous1 />
-
-      </motion.div>
  
-      {isShown && (
+      
         <motion.p 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 2 }}
         className="aboutPartTwo">
           Then came <b>{"</ Salt >"}</b>
           <br />
@@ -72,7 +64,7 @@ const About = () => {
           And I feel I have found <b>home</b> in my return to programming and
           development.
         </motion.p>
-      )}
+    
     </div>
     </motion.div>
   );

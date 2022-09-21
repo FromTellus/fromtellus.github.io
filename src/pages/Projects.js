@@ -14,7 +14,7 @@ const Projects = () => {
       transition={{ duration: 1.8 }}
       className="main-section" onClick={handleClick}>
         <h1 className="projectInfoHeading">SneakerSpot</h1>
-        { isShown && <><div className="projectInfoParagraph">
+        <div className="projectInfoParagraph">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -97,7 +97,7 @@ const Projects = () => {
           transition={{ duration: 5 }}
           src="https://i.ibb.co/8dfbFgG/ezgif-com-gif-maker.gif"
           alt="ezgif-com-gif-maker"
-          border="0" /></>}
+          border="0" />
       </motion.div>
  
   );
