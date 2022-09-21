@@ -94,7 +94,7 @@ const Projects = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 5 }}
+          transition={{ duration: 3.5 }}
           src="https://i.ibb.co/8dfbFgG/ezgif-com-gif-maker.gif"
           alt="ezgif-com-gif-maker"
           border="0" />

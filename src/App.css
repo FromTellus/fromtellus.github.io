@@ -9,12 +9,6 @@ body {
   font-family: neue montreal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -277,7 +271,8 @@ footer {
     border-radius: 10px;
     max-width: 60%;
     max-height: 60%;
-    margin-top: -190px;
+    margin-bottom: 220px;
+    margin-right: 200px;
   }
 
   footer {
@@ -321,3 +316,31 @@ footer {
     width: 1em !important;
   }
 }
+
+@media only screen and (max-width: 800px) {
+    img {
+      margin-bottom: 220px;
+        margin-right: 0px;
+      max-width: 50%;
+      max-height: 50%;
+    }
+    .projectInfoParagraph {
+        margin-top: 240px;
+      }
+
+
+
+  }
+
+  @media only screen and (min-height: 800px) {
+
+    .projectInfoParagraph {
+        margin-top: 240px;
+      }
+      .projectInfoHeading {
+        margin-top: 80px;
+      }
+
+
+
+  }
