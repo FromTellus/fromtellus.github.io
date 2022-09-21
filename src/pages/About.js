@@ -1,8 +1,23 @@
-import React from "react";
+import { useState } from "react";
+import { WiMoonAltWaningGibbous1 } from "react-icons/wi";
+import { motion } from "framer-motion";
+
 
 const About = () => {
+  const [isShown, setIsShow] = useState(false);
+  const handleClick = (event) => {
+    setIsShow((current) => !current);
+  };
+
+  const [rotation, setRotation] = useState(0);
   return (
-    <div className="main-section">
+    <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}
+    transition={{ duration: 1 }}
+  >
+    <div className="main-section" onClick={handleClick}>
       <p className="aboutPartOne">
         Born in 1987 at Stockholm, Sweden.
         <br />
@@ -25,25 +40,44 @@ const About = () => {
         programming at Komvux.
         <br />
         <br />
-        Completing two courses that focused on HTML, CSS and Javascript, two on the subject of
-        C# and one on PHP.
+        Completing two courses that focused on HTML, CSS and Javascript, two on
+        the subject of C# and one on PHP.
       </p>
-      <p className="aboutPartTwo">
-        Then came <b>{"</ Salt >"}</b>
-        <br />
-        <br />
-        I had followed their newsletter for about two years before I felt the
-        time was right and I applied.
-        <br />
-        <br />
-        The stars aligned, I got accepted and completed their three months
-        {"( pretty intense )"} bootcamp in Javascript.
-        <br />
-        <br />
-        And I feel I have found <b>home</b> in my return to programming and development.
-      </p>
+      <motion.div
+      animate={{ rotate: rotation}}
+      onClick={() => setRotation(rotation + 180)}
+      >
+      <WiMoonAltWaningGibbous1 />
+
+      </motion.div>
+ 
+      {isShown && (
+        <motion.p 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 1 }}
+        className="aboutPartTwo">
+          Then came <b>{"</ Salt >"}</b>
+          <br />
+          <br />
+          I had followed their newsletter for about two years before I felt the
+          time was right and I applied.
+          <br />
+          <br />
+          The stars aligned, I got accepted and completed their three months  
+          {" ( of pretty intense )"} bootcamp in Javascript.
+          <br />
+          <br />
+          And I feel I have found <b>home</b> in my return to programming and
+          development.
+        </motion.p>
+      )}
     </div>
+    </motion.div>
   );
 };
+
+
 
 export default About;

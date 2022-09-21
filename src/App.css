@@ -1,308 +1,323 @@
 .App {
-    text-align: center;
-    height: 90vh;
-    border: 1px solid grey;
-    margin: 40px;
+  text-align: center;
+  height: 90vh;
+  border: 1px solid grey;
+  margin: 40px;
 }
 
 body {
-    font-family: neue montreal;
+  font-family: neue montreal;
 }
 
-
 @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 .App-header {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 .App-link {
-    color: #61dafb;
+  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 #tsparticles {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    left: 0;
-    top: 0;
-    z-index: -1;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  z-index: -1;
 }
 
 .main-section {
-    min-height: 80vh;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
+  min-height: 80vh;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+
+.projectInfoHeading {
+  position: absolute;
+  right: 150px;
+  max-width: 150px;
+  font-weight: 100;
+  top: 250px;
+}
+
+.projectInfoHeading:hover {
+    cursor: pointer;
+}
+
+.projectInfoParagraph {
+  position: absolute;
+  right: 150px;
+  max-width: 150px;
+  font-weight: 100;
+}
+
+.projectInfoParagraph > ul > p {
+  position: absolute;
+  right: 180px;
+  max-width: 150px;
+  font-weight: 100;
+}
+
+.projectListContainer {
+  border: 1px solid white;
+}
+
+.projectInfoList {
+  margin: 5px;
+  margin-right: 150px;
+}
+
+.aboutPartOne {
+  position: absolute;
+  right: 100px;
+  max-width: 150px;
+}
+
+.aboutPartTwo {
+  position: absolute;
+  right: 300px;
+  max-width: 150px;
+}
+
+.projectImg {
+  min-width: 500px;
+  min-height: 500px;
+}
+img {
+  border-radius: 10px;
+  max-width: 90%;
+  max-height: 90%;
+}
+.navbar {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  position: relative;
+  padding: 0.5rem 0rem;
+  color: black;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+
+.navbar > .title {
+  position: absolute;
+  color: white;
+  left: 0;
+  height: 10px;
+}
+
+.navbar > li {
+  list-style: none;
+  margin: 10px;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+.navbar > li > a {
+  text-decoration: none;
+  color: white;
+}
+.navbar > li:hover {
+  transform: scale(1.1);
+  color: #ffffff;
+  text-shadow: 0px 0px 30px #fffffe;
+}
+
+h1 {
+  color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-top: 100px;
+  width: 100%;
+  height: 60px; /* Height of the footer */
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  color: #ffffff;
+  text-shadow: 0px 0px 30px #fffffe;
+}
+
+.social-icon {
+  margin-top: 10px;
+}
+
+.title__name {
+  margin-left: 10px;
+  font-size: 60px;
+  font-weight: 100;
+}
+.title__occupation {
+  position: absolute;
+
+  font-size: 15px;
+  left: 10px;
+  top: 100px;
+}
+
+.main-section > div > svg {
+  height: 5em;
+  width: 5em;
+  opacity: 0.5;
+}
+
+.main-section > div > svg:hover {
+    cursor: pointer;
+  }
+
+.main-section:hover > svg {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1550px) {
+  .title__name {
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 100;
+  }
+
+  .main-section > p {
+    margin-top: 80px;
+  }
+  .social-container {
+    height: 30px !important;
+    width: 30px;
+    margin-top: 10px;
+  }
+  .aboutPartOne {
+    position: absolute;
+    right: 50px;
+    max-width: 125px;
+    font-size: 11px;
+  }
+
+  .aboutPartTwo {
+    position: absolute;
+    right: 200px;
+    max-width: 125px;
+    font-size: 11px;
+  }
+
+  .App {
+    text-align: center;
+    height: 100vh;
+    border: 1px solid grey;
+    margin: 20px;
   }
 
   .projectInfoHeading {
     position: absolute;
-    right: 150px;
+    right: 120px;
     max-width: 150px;
     font-weight: 100;
-    top: 250px;
-    
+    top: 140px;
   }
 
+  
   .projectInfoParagraph {
     position: absolute;
-    right: 150px;
+    right: 100px;
     max-width: 150px;
     font-weight: 100;
-    
+    margin-top: 150px;
   }
 
-  .projectInfoParagraph > ul > p {
-    position: absolute;
-    right: 180px;
-    max-width: 150px;
-    font-weight: 100;
-    
+  .projectInfoParagraph > p {
+    margin-top: 170px;
   }
 
   .projectListContainer {
     border: 1px solid white;
-}
+  }
 
   .projectInfoList {
     margin: 5px;
     margin-right: 150px;
   }
 
-  .aboutPartOne {
-    position: absolute;
-    right: 100px;
-    max-width: 150px;
+  .title__occupation {
+    margin-top: -10px;
   }
 
-  .aboutPartTwo {
-    position: absolute;
-    right: 300px;
-    max-width: 150px;
-  }
-
-  .projectImg {
-    min-width: 500px;
-    min-height: 500px;
-  }
-   img {
+  img {
     border-radius: 10px;
-    max-width: 90%;
-    max-height: 90%;
-   }
-  .navbar {
-    height: 60px;
-    width: 100%;
-    display: flex;
-    justify-content: right;
-    position: relative;
-    padding: 0.5rem 0rem;
-    color: black;
-    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+    max-width: 60%;
+    max-height: 60%;
+    margin-top: -190px;
   }
-  
-  .navbar > .title {
-    position: absolute;
-    color: white;
-    left: 0;
-    height: 10px;
-  }
-  
-  .navbar > li {
-    list-style: none;
-    margin: 10px;
-    text-decoration: none;
-    margin-right: 50px;
-  }
-  
-  .navbar > li > a {
-    text-decoration: none;
-    color: white;
-  }
-  .navbar > li:hover {
-    transform: scale(1.1);
-    color: #ffffff;
-    text-shadow:0px 0px 30px #fffffe;
-  }
-  
-  
-  h1 {
-    color: white;
-  }
-  
+
   footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    margin-top: 100px;
-    width: 100%;
-    height: 60px;   /* Height of the footer */
-  }
-
-  .social-icon:hover {
-    transform: scale(1.1);
-    color: #ffffff;
-    text-shadow:0px 0px 30px #fffffe;
-  }
-
-  .social-icon {
-    margin-top: 10px;
-  }
-
-  .title__name {
-    margin-left: 10px;
-    font-size: 60px;
-    font-weight: 100;
-}
-.title__occupation {
     position: absolute;
+    right: 0;
+    width: 150px;
+    height: 60px; /* Height of the footer */
+  }
 
-    font-size: 15px;
-    left: 10px;
-    top: 100px;
+  div.social-container {
+    margin-top: 10px;
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  a.social-icon {
+    margin-top: 75px;
+  }
 }
 
-@media only screen and (max-width: 1550px) {
-    .title__name {
-        margin-top: 50px;
-        margin-left: 10px;
-        font-size: 30px;
-        font-weight: 100;
-    }
-
-    .main-section > p {
-        margin-top: 80px;
-    }
-    .social-container {
-        height: 30px !important;
-        width: 30px;
-        margin-top: 10px;
-    }
-    .aboutPartOne {
-        position: absolute;
-        right: 50px;
-        max-width: 125px;
-        font-size: 11px;
-      }
-    
-      .aboutPartTwo {
-        position: absolute;
-        right: 200px;
-        max-width: 125px;
-        font-size: 11px;
-
-      }
-
-      .App {
-        text-align: center;
-        height: 100vh;
-        border: 1px solid grey;
-        margin: 20px;
-    }
-
-    .projectInfoHeading {
-        position: absolute;
-        right: 120px;
-        max-width: 150px;
-        font-weight: 100;
-        top: 140px;
-        
-      }
-    
-      .projectInfoParagraph {
-        position: absolute;
-        right: 100px;
-        max-width: 150px;
-        font-weight: 100;
-        margin-top: 150px;
-        
-      }
-    
-      .projectInfoParagraph > p {
-        margin-top: 170px;
-
-        
-      }
-    
-      .projectListContainer {
-        border: 1px solid white;
-    }
-    
-      .projectInfoList {
-        margin: 5px;
-        margin-right: 150px;
-      }
-
-      .title__occupation {
-        margin-top: -10px;
-      }
-
-      img {
-        border-radius: 10px;
-        max-width: 60%;
-        max-height: 60%;
-        margin-top: -190px;
-       }
-
-       footer {
-        position: absolute;
-        right: 0;
-        width:150px;
-        height: 60px;   /* Height of the footer */
-      }
-
-      div.social-container {
-        margin-top: 10px;
-        width: 20px !important;
-        height: 20px !important;
-      }
-
-      a.social-icon {
-        margin-top: 75px;
-      }
-    
+@media only screen and (max-width: 1200px) {
+  img {
+    max-width: 40%;
+    max-height: 40%;
   }
-
-  @media only screen and (max-width: 1200px) { 
-    img {
- 
-        max-width: 40%;
-        max-height: 40%;
-
-       }
+  .main-section > div > svg {
+    height: 1em !important;
+    width: 1em !important;
   }
+}
 
-  @media only screen and (max-width: 1200px) { 
-    img {
+@media only screen and (max-width: 1200px) {
+  img {
+    margin-bottom: 120px;
 
-        max-width: 60%;
-        max-height: 60%;
-
-       }
-
+    max-width: 60%;
+    max-height: 60%;
   }
+  .main-section > div > svg {
+    height: 1em !important;
+    width: 1em !important;
+  }
+}
