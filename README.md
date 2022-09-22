@@ -1,5 +1,4 @@
-Portfolio started on 2022-10-19. 
-Available on FromTellus.github.io
+Portfolio started on 2022-10-19, available on FromTellus.github.io
 
 Features to be added in the coming days : 
 
