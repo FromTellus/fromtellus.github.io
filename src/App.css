@@ -9,21 +9,13 @@
 
 body {
   font-family: neue montreal;
-  max-height: 95vh;
+
 }
 
-#root {
-    max-height: 95vh;
-}
 
-iframe {
-    width: 50vw;
-    height: 50vw;
-  }
 
-html {
-    max-height: 80%;
-}
+
+
 
 #tsparticles {
   position: fixed;
@@ -314,3 +306,7 @@ footer {
   }
 
 }
+
+/* #tsparticles > canvas {
+    max-height: 50%;
+} */
