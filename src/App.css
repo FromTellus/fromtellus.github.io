@@ -3,39 +3,32 @@
   height: 90vh;
   border: 1px solid grey;
   margin: 40px;
+  overflow: auto;
+  max-height: 95vh;
 }
 
 body {
   font-family: neue montreal;
+  max-height: 95vh;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#root {
+    max-height: 95vh;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+iframe {
+    width: 50vw;
+    height: 50vw;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+html {
+    max-height: 80%;
 }
 
 #tsparticles {
   position: fixed;
-  height: 100%;
-  width: 100%;
+  height: 50% !important;
+  width: 50% !important;
   margin: 0;
   padding: 0;
   left: 0;
@@ -53,30 +46,24 @@ body {
   color: white;
 }
 
-
-
 .projectInfoHeading {
   position: absolute;
-  right: 150px;
+  right: 10%;
   max-width: 150px;
   font-weight: 100;
   top: 250px;
 }
 
-.projectInfoHeading:hover {
-    cursor: pointer;
-}
-
 .projectInfoParagraph {
   position: absolute;
-  right: 150px;
+  right: 10%;
   max-width: 150px;
   font-weight: 100;
 }
 
 .projectInfoParagraph > ul > p {
   position: absolute;
-  right: 180px;
+  right: 120%;
   max-width: 150px;
   font-weight: 100;
 }
@@ -102,10 +89,6 @@ body {
   max-width: 150px;
 }
 
-.projectImg {
-  min-width: 500px;
-  min-height: 500px;
-}
 img {
   border-radius: 10px;
   max-width: 90%;
@@ -146,28 +129,14 @@ img {
   text-shadow: 0px 0px 30px #fffffe;
 }
 
-h1 {
-  color: white;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  margin-top: 100px;
-  width: 100%;
-  height: 60px; /* Height of the footer */
-}
-
 .social-icon:hover {
   transform: scale(1.1);
   color: #ffffff;
   text-shadow: 0px 0px 30px #fffffe;
 }
 
-.social-icon {
-  margin-top: 10px;
-}
+
+
 
 .title__name {
   margin-left: 10px;
@@ -189,11 +158,21 @@ footer {
 }
 
 .main-section > div > svg:hover {
-    cursor: pointer;
-  }
+  cursor: pointer;
+}
 
 .main-section:hover > svg {
   cursor: pointer;
+}
+
+h1 {
+  color: white;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  width: 100%;
 }
 
 @media only screen and (max-width: 1550px) {
@@ -207,11 +186,7 @@ footer {
   .main-section > p {
     margin-top: 80px;
   }
-  .social-container {
-    height: 30px !important;
-    width: 30px;
-    margin-top: 10px;
-  }
+
   .aboutPartOne {
     position: absolute;
     right: 50px;
@@ -241,7 +216,6 @@ footer {
     top: 140px;
   }
 
-  
   .projectInfoParagraph {
     position: absolute;
     right: 100px;
@@ -283,14 +257,11 @@ footer {
   }
 
   div.social-container {
-    margin-top: 10px;
     width: 20px !important;
     height: 20px !important;
   }
 
-  a.social-icon {
-    margin-top: 75px;
-  }
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -318,29 +289,28 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
-    img {
-      margin-bottom: 220px;
-        margin-right: 0px;
-      max-width: 50%;
-      max-height: 50%;
-    }
-    .projectInfoParagraph {
-        margin-top: 240px;
-      }
+  img {
+    margin-bottom: 220px;
+    margin-right: 0px;
+    max-width: 50%;
+    max-height: 50%;
+  }
+  .projectInfoParagraph {
+    margin-top: 240px;
+  }
+}
 
-
-
+@media only screen and (min-height: 800px) {
+  .projectInfoParagraph {
+    margin-top: 240px;
+  }
+  .projectInfoHeading {
+    margin-top: 80px;
   }
 
-  @media only screen and (min-height: 800px) {
+  a.social-icon {
 
-    .projectInfoParagraph {
-        margin-top: 240px;
-      }
-      .projectInfoHeading {
-        margin-top: 80px;
-      }
-
-
-
+    margin-top: 25px;
   }
+
+}

@@ -25,7 +25,7 @@ function App() {
               </Routes>
           </Router>
           <Footer />
-      </div><div className="everything"><Particles options={particlesOptions} init={particlesInit} /></div></>
+      </div><Particles options={particlesOptions} init={particlesInit} /></>
   );
 }
 
