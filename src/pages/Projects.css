@@ -1,0 +1,77 @@
+.projectInfoHeading {
+    position: absolute;
+    right: 10%;
+    max-width: 150px;
+    font-weight: 100;
+    top: 250px;
+  }
+  
+  .projectInfoParagraph {
+    position: absolute;
+    right: 10%;
+    max-width: 150px;
+    font-weight: 100;
+  }
+  
+  .projectInfoParagraph > ul > p {
+    position: absolute;
+    right: 120%;
+    max-width: 150px;
+    font-weight: 100;
+  }
+  
+  .projectListContainer {
+    border: 1px solid white;
+  }
+  
+  .projectInfoList {
+    margin: 5px;
+    margin-right: 150px;
+  }
+
+  @media only screen and (max-width: 1550px) {
+
+    .projectInfoHeading {
+        position: absolute;
+        right: 120px;
+        max-width: 150px;
+        font-weight: 100;
+        top: 140px;
+      }
+    
+      .projectInfoParagraph {
+        position: absolute;
+        right: 100px;
+        max-width: 150px;
+        font-weight: 100;
+        margin-top: 150px;
+      }
+    
+      .projectInfoParagraph > p {
+        margin-top: 170px;
+      }
+    
+      .projectListContainer {
+        border: 1px solid white;
+      }
+    
+      .projectInfoList {
+        margin: 5px;
+        margin-right: 150px;
+      }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .projectInfoParagraph {
+        margin-top: 240px;
+      }
+  }
+
+  @media only screen and (min-height: 800px) {
+    .projectInfoParagraph {
+        margin-top: 240px;
+      }
+      .projectInfoHeading {
+        margin-top: 80px;
+      }
+  }

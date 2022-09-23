@@ -9,23 +9,27 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer";
+
 function App() {
   const particlesInit = useCallback((main) => {
     loadFull(main);
   }, []);
 
   return (
-    <><div className="App">
-          <Router>
-              <Navbar />
-              <Routes>
-                  <Route exact path="/*" element={<Home />} />
-                  <Route exact path="/projects" element={<Projects />} />
-                  <Route exact path="/about" element={<About />} />
-              </Routes>
-          </Router>
-          <Footer />
-      </div><Particles options={particlesOptions} init={particlesInit} /></>
+    <>
+      <div className="App">
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route exact path="/*" element={<Home />} />
+            <Route exact path="/projects" element={<Projects />} />
+            <Route exact path="/about" element={<About />} />
+          </Routes>
+        </Router>
+        <Footer />
+      </div>
+      <Particles options={particlesOptions} init={particlesInit} />
+    </>
   );
 }
 

@@ -1,0 +1,29 @@
+.aboutPartOne {
+    position: absolute;
+    right: 100px;
+    max-width: 150px;
+  }
+  
+  .aboutPartTwo {
+    position: absolute;
+    right: 300px;
+    max-width: 150px;
+  }
+
+  @media only screen and (max-width: 1550px) {
+  
+    .aboutPartOne {
+      position: absolute;
+      right: 50px;
+      max-width: 125px;
+      font-size: 11px;
+    }
+  
+    .aboutPartTwo {
+      position: absolute;
+      right: 200px;
+      max-width: 125px;
+      font-size: 11px;
+    }
+
+}

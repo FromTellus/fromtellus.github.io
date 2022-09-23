@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import "./Projects.css"
 
 const Projects = () => {
   const [isShown, setIsShow] = useState(false);

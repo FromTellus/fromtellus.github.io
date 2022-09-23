@@ -9,13 +9,7 @@
 
 body {
   font-family: neue montreal;
-
 }
-
-
-
-
-
 
 #tsparticles {
   position: fixed;
@@ -38,109 +32,10 @@ body {
   color: white;
 }
 
-.projectInfoHeading {
-  position: absolute;
-  right: 10%;
-  max-width: 150px;
-  font-weight: 100;
-  top: 250px;
-}
-
-.projectInfoParagraph {
-  position: absolute;
-  right: 10%;
-  max-width: 150px;
-  font-weight: 100;
-}
-
-.projectInfoParagraph > ul > p {
-  position: absolute;
-  right: 120%;
-  max-width: 150px;
-  font-weight: 100;
-}
-
-.projectListContainer {
-  border: 1px solid white;
-}
-
-.projectInfoList {
-  margin: 5px;
-  margin-right: 150px;
-}
-
-.aboutPartOne {
-  position: absolute;
-  right: 100px;
-  max-width: 150px;
-}
-
-.aboutPartTwo {
-  position: absolute;
-  right: 300px;
-  max-width: 150px;
-}
-
 img {
   border-radius: 10px;
   max-width: 90%;
   max-height: 90%;
-}
-.navbar {
-  height: 60px;
-  width: 100%;
-  display: flex;
-  justify-content: right;
-  position: relative;
-  padding: 0.5rem 0rem;
-  color: black;
-  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
-}
-
-.navbar > .title {
-  position: absolute;
-  color: white;
-  left: 0;
-  height: 10px;
-}
-
-.navbar > li {
-  list-style: none;
-  margin: 10px;
-  text-decoration: none;
-  margin-right: 50px;
-}
-
-.navbar > li > a {
-  text-decoration: none;
-  color: white;
-}
-.navbar > li:hover {
-  transform: scale(1.1);
-  color: #ffffff;
-  text-shadow: 0px 0px 30px #fffffe;
-}
-
-.social-icon:hover {
-  transform: scale(1.1);
-  color: #ffffff;
-  text-shadow: 0px 0px 30px #fffffe;
-}
-
-
-
-
-.title__name {
-  margin-left: 10px;
-  font-size: 60px;
-  font-weight: 100;
-}
-.title__occupation {
-  position: absolute;
-
-  font-size: 15px;
-  left: 10px;
-  top: 100px;
 }
 
 .main-section > div > svg {
@@ -161,36 +56,9 @@ h1 {
   color: white;
 }
 
-footer {
-  position: fixed;
-  left: 0;
-  width: 100%;
-}
-
 @media only screen and (max-width: 1550px) {
-  .title__name {
-    margin-top: 50px;
-    margin-left: 10px;
-    font-size: 30px;
-    font-weight: 100;
-  }
-
   .main-section > p {
     margin-top: 80px;
-  }
-
-  .aboutPartOne {
-    position: absolute;
-    right: 50px;
-    max-width: 125px;
-    font-size: 11px;
-  }
-
-  .aboutPartTwo {
-    position: absolute;
-    right: 200px;
-    max-width: 125px;
-    font-size: 11px;
   }
 
   .App {
@@ -200,39 +68,6 @@ footer {
     margin: 20px;
   }
 
-  .projectInfoHeading {
-    position: absolute;
-    right: 120px;
-    max-width: 150px;
-    font-weight: 100;
-    top: 140px;
-  }
-
-  .projectInfoParagraph {
-    position: absolute;
-    right: 100px;
-    max-width: 150px;
-    font-weight: 100;
-    margin-top: 150px;
-  }
-
-  .projectInfoParagraph > p {
-    margin-top: 170px;
-  }
-
-  .projectListContainer {
-    border: 1px solid white;
-  }
-
-  .projectInfoList {
-    margin: 5px;
-    margin-right: 150px;
-  }
-
-  .title__occupation {
-    margin-top: -10px;
-  }
-
   img {
     border-radius: 10px;
     max-width: 60%;
@@ -240,30 +75,12 @@ footer {
     margin-bottom: 220px;
     margin-right: 200px;
   }
-
-  footer {
-    position: absolute;
-    right: 0;
-    width: 150px;
-    height: 60px; /* Height of the footer */
-  }
-
-  div.social-container {
-    width: 20px !important;
-    height: 20px !important;
-  }
-
-
 }
 
 @media only screen and (max-width: 1200px) {
   img {
     max-width: 40%;
     max-height: 40%;
-  }
-  .main-section > div > svg {
-    height: 1em !important;
-    width: 1em !important;
   }
 }
 
@@ -274,10 +91,6 @@ footer {
     max-width: 60%;
     max-height: 60%;
   }
-  .main-section > div > svg {
-    height: 1em !important;
-    width: 1em !important;
-  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -287,26 +100,4 @@ footer {
     max-width: 50%;
     max-height: 50%;
   }
-  .projectInfoParagraph {
-    margin-top: 240px;
-  }
 }
-
-@media only screen and (min-height: 800px) {
-  .projectInfoParagraph {
-    margin-top: 240px;
-  }
-  .projectInfoHeading {
-    margin-top: 80px;
-  }
-
-  a.social-icon {
-
-    margin-top: 25px;
-  }
-
-}
-
-/* #tsparticles > canvas {
-    max-height: 50%;
-} */
