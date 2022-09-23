@@ -26,7 +26,7 @@ const About = () => {
         <br />
         <br />
         My first bout with programming was running and hosting a private MMORPG
-        shard of Ragnarok Online as a teenager.
+        server of Ragnarok Online as a teenager.
         <br />
         <br />
         I learned some C++, MySQL and PHP in the process.

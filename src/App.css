@@ -11,6 +11,12 @@ body {
   font-family: neue montreal;
 }
 
+.projectImg {
+    border-radius: 10px;
+    max-width: 90%;
+    max-height: 90%;
+  }
+
 #tsparticles {
   position: fixed;
   height: 50% !important;
@@ -30,12 +36,6 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
-}
-
-img {
-  border-radius: 10px;
-  max-width: 90%;
-  max-height: 90%;
 }
 
 .main-section > div > svg {
@@ -68,7 +68,7 @@ h1 {
     margin: 20px;
   }
 
-  img {
+  .projectImg {
     border-radius: 10px;
     max-width: 60%;
     max-height: 60%;
@@ -78,14 +78,14 @@ h1 {
 }
 
 @media only screen and (max-width: 1200px) {
-  img {
+    .projectImg {
     max-width: 40%;
     max-height: 40%;
   }
 }
 
 @media only screen and (max-width: 1200px) {
-  img {
+    .projectImg {
     margin-bottom: 120px;
 
     max-width: 60%;
@@ -94,7 +94,7 @@ h1 {
 }
 
 @media only screen and (max-width: 800px) {
-  img {
+    .projectImg {
     margin-bottom: 220px;
     margin-right: 0px;
     max-width: 50%;

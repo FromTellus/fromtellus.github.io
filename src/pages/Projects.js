@@ -92,6 +92,7 @@ const Projects = () => {
           </motion.li>
         </motion.ul>
       </div><motion.img
+          className="projectImg"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}

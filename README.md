@@ -8,6 +8,11 @@ Features to be added in the coming days :
 
     Animations and functionality for expanding about page for added interactivity {partially done 2022-10-21}
 
-    More projects on the projects page
+    Add more projects on the projects page
 
     Mobile view optimization {partially done 2022-10-20}
+
+    Add another theme
+
+    Infinity scroll on projects page
+
